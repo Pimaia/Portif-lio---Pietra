@@ -1,0 +1,79 @@
+img{
+    width: 100px;
+    height: 100px;
+    border-radius: "100%";
+    border: solid 3px #0000FF;  
+}
+
+body{
+    background-color: #e0ffff;
+}
+
+a{
+    background-color:#7fffd4;
+}
+
+a:link{
+    color: #ffffff;   
+}
+
+a:visited{
+    color: #000000;
+}
+.menuDosSites{
+    border: dashed;
+    padding: 15px;
+    margin: 15px;
+    background-color: #7fffd4;
+}
+
+.Topo{
+    border: solid;
+    display: flex;
+    justify-content: space-between;
+    background-color: #bcfefe;
+}
+
+.Topo h1{
+    margin: 20px;
+    margin-top: 40px;
+}
+
+.Projeto img{
+    width: 250px;
+    height: 250px;
+}
+
+.Projeto:hover img{
+    opacity: 0.33;
+}
+
+.Projeto{
+    background-color: #87ceeb;
+    border-style: outset;
+    position: relative;
+}
+
+.Projeto h3{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    opacity: 0;
+}
+
+.Projeto:hover h3{
+    opacity: 1;
+}
+h3 {
+    text-decoration-line: underline;
+    text-decoration-thickness: 15%;
+    text-decoration-style: dotted;
+    color: #404040;
+  }
+
+.Projetos {
+    display: flex;
+    justify-content: space-evenly;
+}
